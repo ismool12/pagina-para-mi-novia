@@ -1,0 +1,42 @@
+h1 {
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: beige
+}
+
+
+.imagen-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%; /* Garantiza que la imagen no sea más ancha que su contenedor */
+    width: 200px; /* Establece el ancho deseado para todas las imágenes */
+    height: auto;
+    margin-bottom: 20px; /* Añade espacio entre las imágenes */
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both; /* Borra elementos flotantes en ambos lados */
+}
+
+
+body{
+
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 600px; /* Establece el límite de ancho del texto a 600px */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    text-align: center; /* Justifica el texto para un mejor aspecto */
+}
